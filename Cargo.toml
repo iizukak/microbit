@@ -41,9 +41,9 @@ default = ["rt"]
 rt = []
 [profile.dev]
 debug = true
-lto = true
+lto = false
 
 [profile.release]
 debug = true
-lto = true
+lto = false
 opt-level = "s"
