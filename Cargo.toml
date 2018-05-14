@@ -44,6 +44,7 @@ debug = true
 lto = true
 
 [profile.release]
+codegen-units = 1
 debug = true
 lto = true
 opt-level = "s"
